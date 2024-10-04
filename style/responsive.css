@@ -1,0 +1,563 @@
+@media (max-width: 575.98px) {
+
+    /*==========---------- GLOBAL ----------==========*/
+    .container {
+      width: 90%;
+    }
+  
+    .section-desc {
+      width: 100%;
+      gap: 0.875rem;
+    }
+  
+    .mtb-50 {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .d-hide-sm {
+      display: none;
+    }
+  
+    .para {
+      font-size: 0.8rem;
+    }
+  
+    /*========== Buttons ==========*/
+    .primary-btn {
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+    }
+  
+    .secondary-btn {
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+    }
+  
+    /*==========---------- HEADER ----------==========*/
+    /*========== Navigation Bar ==========*/
+    .navbar {
+      margin-top: 1.5rem;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  
+    /*========== Banner ==========*/
+    #banner {
+      flex-direction: column;
+    }
+  
+    #banner .banner-desc .banner-title {
+      width: 80%;
+    }
+  
+    #banner .banner-desc h2 {
+      font-size: 2.25rem;
+    }
+  
+    #banner .banner-desc h2 .miama {
+      font-size: 4.5rem;
+    }
+  
+    .banner-img-boxes .img-container {
+      width: fit-content;
+      margin: auto;
+    }
+  
+    .banner-img-boxes img {
+      width: 100%;
+    }
+  
+    .banner-boxes {
+      padding: 0.75rem;
+    }
+  
+    .banner-boxes h4 {
+      font-size: 1.2rem;
+    }
+  
+    .banner-boxes p {
+      font-size: 0.6rem;
+    }
+  
+    .circle {
+      height: 1.7rem;
+      width: 1.7rem;
+      margin-right: 0.5rem;
+    }
+  
+    #yt-link-box {
+      bottom: 12rem;
+      left: 1rem;
+    }
+  
+    #norm-box {
+      position: absolute;
+      bottom: 22rem;
+      left: 10rem;
+    }
+  
+    /*========== Change Habits ==========*/
+    #habits .habits-cards-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    #habits .habits-cards-container .habits-cards {
+      margin-bottom: 2rem;
+    }
+  
+    #habits .habits-cards-container .habits-cards .cards-desc {
+      width: 80%;
+    }
+  
+    /*========== Run Extra ==========*/
+    #run-extra {
+      flex-direction: column;
+      gap: 0.875rem;
+      padding: 1.5rem;
+    }
+  
+    #run-extra .btn-container {
+      width: 100%;
+    }
+  
+    #run-extra .btn-container .primary-btn {
+      width: 100%;
+    }
+  
+    /*========== Trainings & Exercises Start ==========*/
+    /* Applies on all */
+    .training-para1,
+    .training-para2 {
+      font-size: 0.6rem;
+    }
+  
+    /* Row 1 */
+    #training .img-collage .row-1 {
+      grid-template-columns: 40% 60%;
+    }
+  
+    #training .img-collage .row1-img1 {
+      background-position: 30%;
+    }
+  
+    #training .img-collage .row1-img2 {
+      background-position: 60%;
+    }
+  
+    /* Row 2 */
+    #training .img-collage .row-2 {
+      grid-template-columns: 55% 45%;
+    }
+  
+    #training .img-collage .row2-img1 {
+      background-position: 40%;
+    }
+  
+    #training .img-collage .row2-img2 {
+      background-position: 55%;
+    }
+  
+  
+    /*========== BMI Calculator Start ==========*/
+    #bmi .container {
+      flex-direction: column;
+    }
+  
+    .form-title {
+      font-size: 1.3rem;
+    }
+  
+    /* BMI Chart */
+    #bmi .container table {
+      width: 100%;
+    }
+  
+    #bmi .container table th {
+      font-size: 1rem !important;
+    }
+  
+    #bmi .container table,
+    #bmi .container table th,
+    #bmi .container table td {
+      font-size: 0.8rem;
+    }
+  
+    #bmi .container table th,
+    #bmi .container table td {
+      padding: 0.8rem 2rem 1rem 1rem;
+    }
+  
+    /* BMI form */
+    #bmi .container .bmi-form {
+      width: 100%;
+    }
+  
+    /*========== Pricing ==========*/
+    .pricing-cards-container {
+      display: block;
+    }
+  
+    #pricing .card-contents {
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    #pricing .plan-name {
+      font-size: 1.25rem;
+    }
+  
+    #pricing .plan-price {
+      font-size: 2.5rem;
+    }
+  
+    #pricing ul {
+      margin: 2rem 0;
+    }
+  
+    #pricing .btn-container .primary-btn {
+      width: 100%;
+    }
+  
+    /*========== Team Start ==========*/
+    #team .bg-img-css {
+      min-height: 5 0vh;
+    }
+  
+    #team .team-member .member-desc {
+      bottom: 0.5rem;
+      left: 0.5rem;
+    }
+  
+    #team .team-member {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    /*========== Footer ==========*/
+    footer .footer-contents {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    footer .logo {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    footer .footer-contents .right-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    footer .footer-contents .comtact-links {
+      gap: 1rem;
+    }
+  
+    footer .footer-contents .comtact-links h5 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    footer .footer-contents .comtact-links a {
+      font-size: 1.2rem;
+    }
+  
+    .copyrights {
+      padding: 1.5rem 0;
+      margin: auto;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS rules for small devices */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  
+    /*==========---------- GLOBAL ----------==========*/
+    .container {
+      width: 90%;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .d-hide-md {
+      display: none;
+    }
+  
+    /*==========---------- HEADER ----------==========*/
+    /*========== Navigation Bar ==========*/
+    .navbar .menu {
+      gap: 1.25rem;
+    }
+  
+    .navbar .menu li a {
+      font-size: 1rem;
+    }
+  
+    /*========== Banner ==========*/
+    #banner {
+      flex-direction: column;
+    }
+  
+    #banner .banner-desc h2 {
+      font-size: 4.2rem;
+    }
+  
+    #banner .banner-desc h2 .miama {
+      font-size: 8.5rem;
+    }
+  
+    .banner-img-boxes .img-container {
+      width: fit-content;
+      margin: auto;
+    }
+  
+    .banner-boxes h4 {
+      font-size: 1.5rem;
+    }
+  
+    .banner-boxes p {
+      font-size: 0.8rem;
+    }
+  
+    .circle {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  
+    #yt-link-box {
+      bottom: 10rem;
+      left: 8rem;
+    }
+  
+    #norm-box {
+      position: absolute;
+      bottom: 27rem;
+      left: 24rem;
+    }
+  
+    /*========== Change Habits ==========*/
+    #habits .habits-cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    #habits .habits-cards-container .habits-cards {
+      margin-bottom: 2rem;
+    }
+  
+    #habits .habits-cards-container .habits-cards .cards-desc {
+      width: 80%;
+    }
+  
+    /*========== Run Extra ==========*/
+    #run-extra {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+      align-items: center;
+    }
+  
+    /*========== Trainings & Exercises Start ==========*/
+    /* Applies on all */
+    .training-para1,
+    .training-para2 {
+      font-size: 0.8rem;
+    }
+  
+    /*========== BMI Calculator Start ==========*/
+    #bmi .container {
+      flex-direction: column;
+    }
+  
+    /* BMI form */
+    #bmi .container .bmi-form {
+      width: 100%;
+    }
+  
+    /*========== Pricing ==========*/
+    .pricing-cards-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  
+    #pricing .card-contents {
+      padding: 1.5rem;
+    }
+  
+    #pricing .plan-price {
+      font-size: 2.5rem;
+    }
+  
+    #pricing ul li i {
+      margin-right: 5px;
+    }
+  
+    /*========== Footer ==========*/
+    footer .footer-contents {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  
+    footer .footer-contents .right-footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    footer .footer-contents .comtact-links {
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+  
+    footer .footer-contents .comtact-links h5 {
+      font-size: 2rem;
+      margin-bottom: 1.25rem;
+    }
+  
+    footer .footer-contents .comtact-links a {
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: var(--secondary-text-color);
+    }
+  
+    .copyrights {
+      width: max-content;
+      padding: 3rem 0;
+      margin: auto;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+  
+    /*==========---------- GLOBAL ----------==========*/
+    .container {
+      width: 85%;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    /*==========---------- HEADER ----------==========*/
+    /*========== Banner ==========*/
+    #banner .banner-desc h2 {
+      font-size: 3.6rem;
+      font-weight: 900;
+    }
+  
+    #banner .banner-desc h2 .miama {
+      font-size: 7rem;
+    }
+  
+    .banner-boxes {
+      padding: 1rem;
+    }
+  
+    .banner-boxes h4 {
+      font-size: 1.8rem;
+    }
+  
+    .banner-boxes p {
+      font-size: 0.8rem;
+    }
+  
+    #yt-link-box {
+      position: absolute;
+      bottom: 4rem;
+      left: 1rem;
+    }
+  
+    #norm-box {
+      position: absolute;
+      bottom: 20rem;
+      left: 10rem;
+    }
+  
+    /*========== Change Habits ==========*/
+    #habits .habits-cards-container {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2.5rem;
+    }
+  
+    /*========== Run Extra ==========*/
+    #run-extra {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+      align-items: center;
+    }
+  
+    /*========== Trainings & Exercises Start ==========*/
+    /* Applies on all */
+    .bg-img-css {
+      min-height: 45vh;
+    }
+  
+    .training-para1,
+    .training-para2 {
+      font-size: 0.8rem;
+    }
+  
+    /*========== Pricing ==========*/
+  
+    #pricing .card-contents {
+      padding: 2rem;
+    }
+  
+    #pricing ul li i {
+      margin-right: 8px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* CSS rules for extra large devices */
+  }
+  
+  /* XXL devices (very large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  
+    /*========== Logo ==========*/
+    .logo {
+      font-size: 4rem;
+    }
+  
+    /*==========---------- HEADER ----------==========*/
+    /*========== Navigation Bar ==========*/
+    .navbar .menu {
+      gap: 3rem;
+    }
+  
+    .navbar .menu li a {
+      font-size: 1.5rem;
+    }
+  
+    /*========== Banner ==========*/
+  
+    #banner .banner-desc h2 {
+      font-size: 5rem;
+    }
+  
+    #banner .banner-desc h2 .miama {
+      font-size: 10.5rem;
+    }
+  
+    .banner-btns {
+      gap: 3rem;
+    }
+  }

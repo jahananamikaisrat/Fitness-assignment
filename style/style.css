@@ -1,0 +1,566 @@
+/*==========---------- FONTS ----------==========*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Miama';
+    src: url('../Font/Miama/Miama.otf') format('opentype');
+        url('../Font/Miama/Miama.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*==========---------- GLOBAL ----------==========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: rgb(17, 17, 17);
+    --primary-text-color: rgb(255, 255, 255);
+    --secondary-text-color: rgba(255, 255, 255, 0.5);
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--bg-primary);
+    color: var(--primary-text-color);
+}
+
+.section-desc {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.875rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.para {
+    color: var(--secondary-text-color);
+    font-size: 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mtb-50 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.flex-col {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+.active-link {
+    font-weight: 600;
+    border-radius: 2.875rem;
+    background: rgb(230, 83, 60);
+    padding: 0.5rem 1.25rem;
+}
+
+/*========== Buttons ==========*/
+.primary-btn {
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 1rem 2.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    background: transparent;
+    padding: 1rem 2.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/*========== Logo ==========*/
+.logo {
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+
+/*==========---------- HEADER ----------==========*/
+/*========== Navigation Bar ==========*/
+.navbar {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu {
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navbar .menu li {
+    list-style-type: none;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/*========== Banner ==========*/
+#banner .banner-desc {
+    align-items: flex-start;
+}
+
+#banner .banner-desc .banner-title {
+    width: 70%;
+}
+
+#banner .banner-desc h2 {
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+#banner .banner-desc h2 .miama {
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+.banner-btns {
+    gap: 1rem;
+}
+
+.banner-img-boxes {
+    position: relative;
+}
+
+.banner-boxes {
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    padding: 1.25rem;
+    align-items: center;
+}
+
+.banner-boxes h4 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    align-items: center;
+}
+
+#yt-link-box {
+    position: absolute;
+    bottom: 3em;
+    left: -5em;
+}
+
+#norm-box {
+    position: absolute;
+    bottom: 19em;
+    left: 9.3em;
+}
+
+/*========== Change Habits ==========*/
+#habits .habits-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#habits .habits-cards-container .habits-cards .img-container img {
+    border-radius: 50%;
+}
+
+#habits .habits-cards-container .habits-cards {
+    gap: 0.5rem;
+}
+
+#habits .habits-cards-container .habits-cards .cards-desc {
+    text-align: center;
+}
+
+#habits .habits-cards-container .habits-cards .cards-desc h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/*========== Run Extra ==========*/
+#run-extra {
+    gap: 5rem;
+    padding: 2rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+#run-extra .section-desc {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+}
+
+#run-extra .img-container img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+/*========== Trainings & Exercises Start ==========*/
+#training .section-desc {
+    margin: 0;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* Applies on all */
+.bg-img-css {
+    min-height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.65;
+}
+
+.training-para1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 70%;
+}
+
+.training-para2 {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    width: 70%;
+}
+
+/* Row 1 */
+#training .img-collage .row-1 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+#training .img-collage .row1-img1 {
+    background-image: url(../images/exercise1.jpg);
+}
+
+#training .img-collage .row1-img1-container {
+    background: aquamarine;
+    position: relative;
+}
+
+#training .img-collage .row1-img2 {
+    background-image: url(../images/exercise2.png);
+}
+
+#training .img-collage .row1-img2-container {
+    background: red;
+    position: relative;
+}
+
+#training .img-collage .row1-img3 {
+    background-image: url(../images/exercise3.png);
+}
+
+#training .img-collage .row1-img3-container {
+    background: black;
+    position: relative;
+}
+
+/* Row 2 */
+#training .img-collage .row-2 {
+    display: grid;
+    grid-template-columns: 45% 25% 30%;
+}
+
+#training .img-collage .row2-img1 {
+    background-image: url(../images/exercise4.png);
+}
+
+#training .img-collage .row2-img1-container {
+    background: black;
+    position: relative;
+}
+
+#training .img-collage .row2-img2 {
+    background-image: url(../images/exercise5.jpg);
+}
+
+#training .img-collage .row2-img2-container {
+    background: green;
+    position: relative;
+}
+
+#training .img-collage .row2-img3 {
+    background-image: url(../images/exercise6.jpg);
+}
+
+#training .img-collage .row2-img3-container {
+    background: blue;
+    position: relative;
+}
+
+/*========== BMI Calculator Start ==========*/
+#bmi .bg-full .container {
+    justify-content: space-between;
+}
+
+.form-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+/* BMI Chart */
+.bg-full {
+    background: rgb(34, 34, 34);
+}
+
+#bmi .container table {
+    border-collapse: collapse;
+}
+
+#bmi .container table th {
+    font-size: 1rem !important;
+    font-weight: 500;
+    color: var(--primary-text-color) !important;
+}
+
+#bmi .container table,
+#bmi .container table th,
+#bmi .container table td {
+    border: 1px solid var(--secondary-text-color);
+    font-size: 0.875rem;
+    color: var(--secondary-text-color);
+}
+
+#bmi .container table th,
+#bmi .container table td {
+    text-align: left;
+    padding: 0.8rem 3.5rem 1rem 1rem;
+}
+
+/* BMI form */
+#bmi .container .bmi-form {
+    width: 50%;
+}
+
+#bmi .container .bmi-form form .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+#bmi .container .bmi-form .form-title {
+    margin-bottom: 0.8rem;
+}
+
+#bmi .container .bmi-form input,
+#bmi .container .bmi-form select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px 12px 20px;
+    border: none;
+    box-sizing: border-box;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#bmi .container .bmi-form select option {
+    background: rgb(34, 34, 34);
+    color: var(--secondary-text-color);
+    border: none;
+}
+
+/*========== Pricing ==========*/
+.pricing-cards-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2rem;
+}
+
+.card-item {
+    border-radius: 18px;
+}
+
+#pricing .card-contents {
+    padding: 3rem 4rem;
+}
+
+.price-card-title-mb {
+    margin-bottom: 10px;
+}
+
+#pricing .plan-name {
+    font-size: 1.25rem;
+}
+
+#pricing .plan-price {
+    font-size: 2.8rem;
+}
+
+#pricing ul {
+    list-style-type: none;
+    margin: 2.5rem 0;
+}
+
+#pricing ul li {
+    margin: 1rem 0;
+    color: var(--secondary-text-color);
+}
+
+#pricing ul li i {
+    margin-right: 10px;
+}
+
+#pricing .card-contents .secondary-btn:hover {
+    background: rgb(230, 83, 60);
+    border: 1px solid transparent;
+}
+
+
+/*========== Team Start ==========*/
+#team .team-member .image-container {
+    position: relative;
+}
+
+#team .team-member .member-desc {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+#team .team-member .bg-img-css {
+    border-radius: 18px;
+    opacity: 0.8;
+    min-height: 40vh;
+}
+
+#team .team-member {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 18px;
+}
+
+#team .team-member img {
+    width: 100%;
+}
+
+.member-name {
+    font-size: 1rem;
+}
+
+#team .image-container .member1-img {
+    background-image: url(../images/trainer1.png);
+}
+
+#team .image-container .member2-img {
+    background-image: url(../images/trainer2.png);
+}
+
+#team .image-container .member3-img {
+    background-image: url(../images/trainer3.png);
+}
+
+#team .image-container .member4-img {
+    background-image: url(../images/trainer4.png);
+    background-position: center;
+}
+
+#team .image-container .member5-img {
+    background-image: url(../images/trainer5.png);
+    background-position: center;
+}
+
+#team .image-container .member6-img {
+    background-image: url(../images/trainer6.png);
+    background-position: center;
+}
+
+/*========== Footer ==========*/
+footer .footer-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .left-footer {
+    margin: 0;
+}
+
+footer .logo {
+    font-size: 4.375rem;
+    margin-bottom: 1.25rem;
+}
+
+footer .footer-contents .right-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer .footer-contents .comtact-links {
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+footer .footer-contents .comtact-links h5 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+footer .footer-contents .comtact-links a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.copyrights {
+    width: max-content;
+    padding: 3rem 0;
+    margin: auto;
+}
